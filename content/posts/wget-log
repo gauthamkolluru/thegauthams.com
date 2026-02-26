@@ -1,0 +1,83 @@
+Will not apply HSTS. The HSTS database must be a regular and non-world-writable file.
+ERROR: could not open HSTS store at '/home/gautham/.wget-hsts'. HSTS will be disabled.
+--2019-11-21 18:22:37--  https://update.code.visualstudio.com/commit:8795a9889db74563ddd43eb0a897a2384129a619/server-linux-x64/stable
+Resolving update.code.visualstudio.com (update.code.visualstudio.com)... 51.144.164.215
+Connecting to update.code.visualstudio.com (update.code.visualstudio.com)|51.144.164.215|:443... failed: Resource temporarily unavailable.
+Retrying.
+
+--2019-11-21 18:22:59--  (try: 2)  https://update.code.visualstudio.com/commit:8795a9889db74563ddd43eb0a897a2384129a619/server-linux-x64/stable
+Connecting to update.code.visualstudio.com (update.code.visualstudio.com)|51.144.164.215|:443... failed: Resource temporarily unavailable.
+Retrying.
+
+--2019-11-21 18:23:22--  (try: 3)  https://update.code.visualstudio.com/commit:8795a9889db74563ddd43eb0a897a2384129a619/server-linux-x64/stable
+Connecting to update.code.visualstudio.com (update.code.visualstudio.com)|51.144.164.215|:443... failed: Resource temporarily unavailable.
+Retrying.
+
+--2019-11-21 18:23:46--  (try: 4)  https://update.code.visualstudio.com/commit:8795a9889db74563ddd43eb0a897a2384129a619/server-linux-x64/stable
+Connecting to update.code.visualstudio.com (update.code.visualstudio.com)|51.144.164.215|:443... failed: Resource temporarily unavailable.
+Retrying.
+
+--2019-11-21 18:24:11--  (try: 5)  https://update.code.visualstudio.com/commit:8795a9889db74563ddd43eb0a897a2384129a619/server-linux-x64/stable
+Connecting to update.code.visualstudio.com (update.code.visualstudio.com)|51.144.164.215|:443... failed: Resource temporarily unavailable.
+Retrying.
+
+--2019-11-21 18:24:37--  (try: 6)  https://update.code.visualstudio.com/commit:8795a9889db74563ddd43eb0a897a2384129a619/server-linux-x64/stable
+Connecting to update.code.visualstudio.com (update.code.visualstudio.com)|51.144.164.215|:443... failed: Resource temporarily unavailable.
+Retrying.
+
+--2019-11-21 18:25:04--  (try: 7)  https://update.code.visualstudio.com/commit:8795a9889db74563ddd43eb0a897a2384129a619/server-linux-x64/stable
+Connecting to update.code.visualstudio.com (update.code.visualstudio.com)|51.144.164.215|:443... failed: Resource temporarily unavailable.
+Retrying.
+
+--2019-11-21 18:25:32--  (try: 8)  https://update.code.visualstudio.com/commit:8795a9889db74563ddd43eb0a897a2384129a619/server-linux-x64/stable
+Connecting to update.code.visualstudio.com (update.code.visualstudio.com)|51.144.164.215|:443... failed: Resource temporarily unavailable.
+Retrying.
+
+--2019-11-21 18:26:01--  (try: 9)  https://update.code.visualstudio.com/commit:8795a9889db74563ddd43eb0a897a2384129a619/server-linux-x64/stable
+Connecting to update.code.visualstudio.com (update.code.visualstudio.com)|51.144.164.215|:443... failed: Resource temporarily unavailable.
+Retrying.
+
+--2019-11-21 18:26:31--  (try:10)  https://update.code.visualstudio.com/commit:8795a9889db74563ddd43eb0a897a2384129a619/server-linux-x64/stable
+Connecting to update.code.visualstudio.com (update.code.visualstudio.com)|51.144.164.215|:443... failed: Resource temporarily unavailable.
+Retrying.
+
+--2019-11-21 18:27:02--  (try:11)  https://update.code.visualstudio.com/commit:8795a9889db74563ddd43eb0a897a2384129a619/server-linux-x64/stable
+Connecting to update.code.visualstudio.com (update.code.visualstudio.com)|51.144.164.215|:443... failed: Resource temporarily unavailable.
+Retrying.
+
+--2019-11-21 18:27:33--  (try:12)  https://update.code.visualstudio.com/commit:8795a9889db74563ddd43eb0a897a2384129a619/server-linux-x64/stable
+Connecting to update.code.visualstudio.com (update.code.visualstudio.com)|51.144.164.215|:443... failed: Resource temporarily unavailable.
+Retrying.
+
+--2019-11-21 18:28:04--  (try:13)  https://update.code.visualstudio.com/commit:8795a9889db74563ddd43eb0a897a2384129a619/server-linux-x64/stable
+Connecting to update.code.visualstudio.com (update.code.visualstudio.com)|51.144.164.215|:443... failed: Resource temporarily unavailable.
+Retrying.
+
+--2019-11-21 18:28:35--  (try:14)  https://update.code.visualstudio.com/commit:8795a9889db74563ddd43eb0a897a2384129a619/server-linux-x64/stable
+Connecting to update.code.visualstudio.com (update.code.visualstudio.com)|51.144.164.215|:443... failed: Resource temporarily unavailable.
+Retrying.
+
+--2019-11-21 18:29:06--  (try:15)  https://update.code.visualstudio.com/commit:8795a9889db74563ddd43eb0a897a2384129a619/server-linux-x64/stable
+Connecting to update.code.visualstudio.com (update.code.visualstudio.com)|51.144.164.215|:443... failed: Resource temporarily unavailable.
+Retrying.
+
+--2019-11-21 18:29:37--  (try:16)  https://update.code.visualstudio.com/commit:8795a9889db74563ddd43eb0a897a2384129a619/server-linux-x64/stable
+Connecting to update.code.visualstudio.com (update.code.visualstudio.com)|51.144.164.215|:443... failed: Resource temporarily unavailable.
+Retrying.
+
+--2019-11-21 18:30:08--  (try:17)  https://update.code.visualstudio.com/commit:8795a9889db74563ddd43eb0a897a2384129a619/server-linux-x64/stable
+Connecting to update.code.visualstudio.com (update.code.visualstudio.com)|51.144.164.215|:443... failed: Resource temporarily unavailable.
+Retrying.
+
+--2019-11-21 18:30:39--  (try:18)  https://update.code.visualstudio.com/commit:8795a9889db74563ddd43eb0a897a2384129a619/server-linux-x64/stable
+Connecting to update.code.visualstudio.com (update.code.visualstudio.com)|51.144.164.215|:443... failed: Resource temporarily unavailable.
+Retrying.
+
+--2019-11-21 18:31:10--  (try:19)  https://update.code.visualstudio.com/commit:8795a9889db74563ddd43eb0a897a2384129a619/server-linux-x64/stable
+Connecting to update.code.visualstudio.com (update.code.visualstudio.com)|51.144.164.215|:443... failed: Resource temporarily unavailable.
+Retrying.
+
+--2019-11-21 18:31:41--  (try:20)  https://update.code.visualstudio.com/commit:8795a9889db74563ddd43eb0a897a2384129a619/server-linux-x64/stable
+Connecting to update.code.visualstudio.com (update.code.visualstudio.com)|51.144.164.215|:443... failed: Resource temporarily unavailable.
+Giving up.
+

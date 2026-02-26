@@ -1,0 +1,34 @@
+baseURL = "https://thegauthams.com/"
+languageCode = "en-us"
+title = "Gautham's"
+theme = "applelike"
+ignoreLogs = ["warning-goldmark-raw-html"]
+
+[menu]
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 1
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 2
+  [[menu.main]]
+    name = "Resume"
+    url = "https://resume.thegauthams.com"
+    weight = 4
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 3
+
+[markup]
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = true
+    style = "monokai"
+    tabWidth = 4

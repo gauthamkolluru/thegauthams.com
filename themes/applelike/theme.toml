@@ -1,0 +1,7 @@
+name = "applelike"
+license = "MIT"
+description = "Apple.com-inspired minimal theme"
+min_version = "0.41.0"
+
+[author]
+  name = ""

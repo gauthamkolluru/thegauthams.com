@@ -1,0 +1,32 @@
+{{ define "main" }}
+<div class="container page-content">
+  <h1 class="page-title">{{ .Title }}</h1>
+  {{ if eq .Section "posts" }}
+    {{ range .Pages.GroupByPublishDate "January 2006" }}
+      <section class="post-group">
+        <h2 class="group-date">{{ .Key }}</h2>
+        <ul class="post-list">
+          {{ range .Pages.ByPublishDate.Reverse }}
+            <li>
+              <a href="{{ .RelPermalink }}" class="post-link">{{ .Title }}</a>
+              {{ partial "metadata.html" . }}
+            </li>
+          {{ end }}
+        </ul>
+      </section>
+    {{ end }}
+    <p class="back-link"><a href="{{ "/" | relURL }}">← back</a></p>
+  {{ else }}
+    {{/* Taxonomy term page (e.g. /tags/sometag/) */}}
+    <ul class="post-list">
+      {{ range .Pages.ByPublishDate.Reverse }}
+        <li>
+          <a href="{{ .RelPermalink }}" class="post-link">{{ .Title }}</a>
+          {{ partial "metadata.html" . }}
+        </li>
+      {{ end }}
+    </ul>
+    <p class="back-link"><a href="{{ "/tags/" | relURL }}">← back to tags</a></p>
+  {{ end }}
+</div>
+{{ end }}

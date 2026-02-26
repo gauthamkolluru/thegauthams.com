@@ -1,0 +1,7 @@
+{{ define "main" }}
+<div class="container home-content">
+  <h1 class="home-title">{{ .Site.Title }}</h1>
+  <p class="home-intro">Posts, notes, and more.</p>
+  <p><a href="{{ "/posts/" | relURL }}" class="cta-link">View all posts →</a></p>
+</div>
+{{ end }}

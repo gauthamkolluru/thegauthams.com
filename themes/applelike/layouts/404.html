@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Page not found | {{ .Site.Title }}</title>
+  <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
+</head>
+<body>
+  {{- partial "header.html" . -}}
+  <main class="main">
+    <div class="container page-content">
+      <h1 class="page-title">Page not found</h1>
+      <p><a href="{{ "/" | relURL }}">← back home</a></p>
+    </div>
+  </main>
+  {{- partial "footer.html" . -}}
+</body>
+</html>

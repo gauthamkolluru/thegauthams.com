@@ -1,0 +1,6 @@
+<span class="metadata">
+  {{ .Date.Format "Jan 2, 2006" }}
+  {{ with .Param "tags" }}
+    {{ range . }} <span class="tag">{{ . }}</span>{{ end }}
+  {{ end }}
+</span>

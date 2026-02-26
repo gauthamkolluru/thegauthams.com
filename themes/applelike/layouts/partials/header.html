@@ -1,0 +1,10 @@
+<header class="site-header">
+  <div class="container">
+    <a href="{{ "/" | relURL }}" class="site-title">{{ .Site.Title }}</a>
+    <nav class="nav">
+      {{ range .Site.Menus.main }}
+        <a href="{{ .URL }}" class="nav-link{{ if hasPrefix .URL "http" }} external{{ end }}">{{ .Name }}</a>
+      {{ end }}
+    </nav>
+  </div>
+</header>
