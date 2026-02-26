@@ -1,7 +1,11 @@
 {{ define "main" }}
 <div class="container home-content">
-  <h1 class="home-title">{{ .Site.Title }}</h1>
-  <p class="home-intro">Posts, notes, and more.</p>
+  <h1 class="home-title">{{ .Site.Params.homeTitle | default .Site.Title }}</h1>
+  {{ with .Site.Params.homeIntro }}
+  {{ range . }}<p class="home-intro">{{ . }}</p>{{ end }}
+  {{ else }}
+  <p class="home-intro">{{ .Site.Params.homeDescription | default "Posts, notes, and more." }}</p>
+  {{ end }}
   <p><a href="{{ "/posts/" | relURL }}" class="cta-link">View all posts →</a></p>
 </div>
 {{ end }}

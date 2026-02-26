@@ -108,6 +108,10 @@ body {
   margin: 0 0 var(--spacing);
 }
 
+.home-content .home-intro + .home-intro {
+  margin-top: 0.75rem;
+}
+
 .cta-link {
   font-size: 1.1rem;
   color: var(--link);
