@@ -1,9 +1,9 @@
-/* Apple-style minimal theme */
+/* Apple-style minimal theme — night sky blue */
 :root {
-  --bg: #fbfbfd;
-  --text: #1d1d1f;
-  --text-muted: #86868b;
-  --link: #0071e3;
+  --bg: #0f172a;
+  --text: #f8fafc;
+  --text-muted: #94a3b8;
+  --link: #7dd3fc;
   --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
   --max-width: 980px;
   --spacing: 2rem;
@@ -36,7 +36,7 @@ body {
 /* Header */
 .site-header {
   padding: var(--spacing) 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .site-header .container {
@@ -140,7 +140,7 @@ body {
 
 .post-list li {
   padding: 0.5rem 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
@@ -181,12 +181,12 @@ body {
   text-decoration: none;
   padding: 0.25rem 0.5rem;
   border-radius: 4px;
-  background: rgba(0, 0, 0, 0.04);
+  background: rgba(255, 255, 255, 0.08);
 }
 
 .tag-link:hover {
   color: var(--text);
-  background: rgba(0, 0, 0, 0.08);
+  background: rgba(255, 255, 255, 0.12);
 }
 
 .back-link {
@@ -258,7 +258,7 @@ body {
 }
 
 .article-body pre {
-  background: rgba(0, 0, 0, 0.04);
+  background: rgba(255, 255, 255, 0.08);
   padding: 1rem;
   border-radius: 6px;
   overflow-x: auto;
@@ -268,7 +268,7 @@ body {
 .article-body code {
   padding: 0.15em 0.35em;
   border-radius: 4px;
-  background: rgba(0, 0, 0, 0.06);
+  background: rgba(255, 255, 255, 0.12);
 }
 
 .article-body pre code {
@@ -279,7 +279,7 @@ body {
 /* Footer */
 .site-footer {
   padding: var(--spacing) 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.06);
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .footer-text {
