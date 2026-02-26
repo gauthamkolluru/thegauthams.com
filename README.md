@@ -32,6 +32,16 @@ Edit the new file in `content/posts/`, set `draft: false` when ready to publish.
 - `themes/applelike/` — Custom theme (layouts, `static/css/main.css`, optional `static/js/main.js`).
 - `archetypes/default.md` — Default front matter for new content.
 
+## Theme / fonts
+
+The site uses **Nunito** (Google Fonts) as the main font (Option A: single friendly font). Fonts you may want to try later are documented here:
+
+- **Nunito** — Rounded, friendly, readable (current).
+- **Quicksand** — Geometric, soft, a bit playful.
+- **Fredoka** — More playful; good for headings if you switch to a two-font setup.
+
+To change the font: update the Google Fonts link in `themes/applelike/layouts/partials/head.html` and the `--font-sans` (and optionally `--font-heading`) variable in `themes/applelike/static/css/main.css`.
+
 ## License
 
 See [LICENSE](LICENSE).
