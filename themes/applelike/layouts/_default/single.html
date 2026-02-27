@@ -8,4 +8,7 @@
     {{ .Content }}
   </div>
 </article>
+{{ if eq .Section "posts" }}
+<div class="container page-content">{{ partial "disqus.html" . }}</div>
+{{ end }}
 {{ end }}

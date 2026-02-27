@@ -280,6 +280,11 @@ body {
   background: none;
 }
 
+/* Disqus comments */
+.disqus-comments {
+  margin-top: var(--spacing-lg);
+}
+
 /* Footer */
 .site-footer {
   padding: var(--spacing) 0;

@@ -7,6 +7,7 @@ ignoreLogs = ["warning-goldmark-raw-html"]
 [params]
   homeTitle = "Hello, World!"
   homeDescription = "Code, prose, and the odd Telugu verse. Building things and writing about them."
+  disqusShortname = "gauthamsk-me"
   homeIntro = [
     "I'm a software engineer — data engineering, AI & ML solutions development, Python, and automation are where I spend most of my keyboard time.",
     "Here I write about that, plus essays on things like marriage, humanity, and culture, and the occasional Telugu poem or film take (Zindagi Na Milegi Dobara, etc.).",
