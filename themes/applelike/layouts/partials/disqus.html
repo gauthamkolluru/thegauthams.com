@@ -3,9 +3,9 @@
 <div id="disqus_thread" class="disqus-comments"></div>
 <script>
   var disqus_config = function () {
-    this.page.url = {{ .Permalink | absURL | jsonify }};
-    this.page.identifier = {{ .Permalink | jsonify }};
-    this.page.title = {{ .Title | jsonify }};
+    this.page.url = {{ .Permalink | jsonify | safeJS }};
+    this.page.identifier = {{ .Permalink | jsonify | safeJS }};
+    this.page.title = {{ .Title | jsonify | safeJS }};
   };
   (function() {
     var d = document, s = d.createElement('script');
